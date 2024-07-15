@@ -31,9 +31,6 @@ export default function Home() {
       icon: "/github.svg",
     },
   ];
-  const handleSubmit = () => {
-    console.log("Submitted");
-  };
 
   return (
     <main className="h-[100dvh] container">
@@ -41,7 +38,7 @@ export default function Home() {
         <Image src="/logo.svg" alt="logo" width={165} height={40} />
         <Button
           type="button"
-          className="bg-[#CDEA89] hidden sm:block text-[#052E16] h-[40px]"
+          className="bg-[#CDEA89] hidden text-[#052E16] h-[40px] sm:flex items-center"
         >
           Get Notified
         </Button>
@@ -51,7 +48,7 @@ export default function Home() {
           <h1 className="text-[#E3EECE] text-[80px] sm:text-[100px] leading-[80px] sm:leading-[140px] xl:leading-normal xl:text-[142.05px] font-bold">
             Coming Soon
           </h1>
-          <p className="text-sm sm:text-[18px] lg:text-[30px] xl:w-[677px] font-bold text-[#E3EECE] mt-6 sm:mt-0">
+          <p className="text-sm sm:text-[18px] lg:text-[30px] xl:w-[677px] leading-normal font-bold text-[#E3EECE] mt-6 sm:mt-0">
             Discover Cities Africa like never before with Tourgrin!
           </p>
           <p className="text-[#CDEA89] text-sm sm:text-[18px] lg:text-[25px] font-bold mt-2 sm:mt-4 lg:mt-8">
@@ -65,7 +62,6 @@ export default function Home() {
             />
             <Button
               type="button"
-              onClick={handleSubmit}
               className="bg-[#CDEA89] text-[#052E16] text-sm sm:text-base h-full"
             >
               Subscribe
