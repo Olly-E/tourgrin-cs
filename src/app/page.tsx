@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="flex items-center justify-between h-[70px] px-6 sm:h-[120px]">
+      <div className="flex items-center max-w-[1440px] mx-auto px-6 sm:px-[40px] justify-between h-[120px]">
         <Image src="/assets/logo.svg" alt="logo" width={165} height={40} />
         <Button
           type="button"
