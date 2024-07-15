@@ -49,7 +49,7 @@ export default function Home() {
               Coming Soon
             </h1>
             <p className="text-sm sm:text-[18px] lg:text-[30px] xl:w-[677px] leading-normal font-bold text-[#E3EECE] mt-6 sm:mt-0">
-              Discover Cities Africa like never before with Tourgrin!
+              Discover Cities in Africa like never before with Tourgrin!
             </p>
             <p className="text-[#CDEA89] text-sm sm:text-[18px] lg:text-[25px] font-bold mt-2 sm:mt-4 lg:mt-8">
               Get notified when we launch
