@@ -7,34 +7,34 @@ export default function Home() {
     {
       title: "Facebook",
       link: "https://facebook.com",
-      icon: "/facebook.svg",
+      icon: "/assets/facebook.svg",
     },
     {
       title: "Twitter",
       link: "https://twitter.com",
-      icon: "/twitter.svg",
+      icon: "/assets/twitter.svg",
     },
     {
       title: "Instagram",
       link: "https://instagram.com",
-      icon: "/instagram.svg",
+      icon: "/assets/instagram.svg",
     },
     {
       title: "LinkedIn",
       link: "https://linkedin.com",
-      icon: "/linkedin.svg",
+      icon: "/assets/linkedin.svg",
     },
     {
       title: "Github",
       link: "https://github.com",
-      icon: "/github.svg",
+      icon: "/assets/github.svg",
     },
   ];
 
   return (
     <main className="h-[100dvh] container">
       <div className="flex items-center justify-between h-[120px]">
-        <Image src="/logo.svg" alt="logo" width={165} height={40} />
+        <Image src="/assets/logo.svg" alt="logo" width={165} height={40} />
         <Button
           type="button"
           className="bg-[#CDEA89] hidden text-[#052E16] h-[40px] sm:flex items-center"
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div>
           <Image
-            src="/coming.svg"
+            src="/assets/coming.svg"
             alt="hero image"
             width={388.25}
             height={397}
