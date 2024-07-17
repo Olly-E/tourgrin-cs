@@ -9,28 +9,28 @@ const NotFoundPage = () => {
   const SOCIAL_LINKS = [
     {
       title: "Facebook",
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/tourgrin?mibextid=LQQJ4d",
       icon: "/assets/facebook.svg",
     },
     {
       title: "Twitter",
-      link: "https://twitter.com",
+      link: "https://x.com/tourgrin?s=21&t=igmKThl_9P_TtqvHlO2O5A",
       icon: "/assets/twitter.svg",
     },
     {
       title: "Instagram",
-      link: "https://instagram.com",
+      link: "https://www.instagram.com/tourgrin?igsh=MTdid3ExOXVnM3l0Ng==",
       icon: "/assets/instagram.svg",
     },
     {
       title: "LinkedIn",
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/company/tourgrin/",
       icon: "/assets/linkedin.svg",
     },
     {
-      title: "Github",
-      link: "https://github.com",
-      icon: "/assets/github.svg",
+      title: "TikTok",
+      link: "https://www.tiktok.com/@tourgrin_?_t=8o4dMetBkHN&_r=1",
+      icon: "/assets/tikTok.svg",
     },
   ];
   return (
@@ -51,7 +51,7 @@ const NotFoundPage = () => {
             Coming Soon
           </h1>
           <p className="text-sm sm:text-[18px] lg:text-[30px] xl:w-[677px] leading-normal font-bold text-[#E3EECE] mt-6 sm:mt-0">
-            Discover Cities in Africa like never before with Tourgrin!
+            Explore Cities in Africa like never before with Tourgrin!
           </p>
           <p className="text-[#CDEA89] text-sm sm:text-[18px] lg:text-[25px] font-bold mt-2 sm:mt-4 lg:mt-8">
             Get notified when we launch
