@@ -61,8 +61,14 @@ export default function NotFound() {
 
   return (
     <main className="">
-      <div className="flex items-center max-w-[1440px] mx-auto px-6 sm:px-[40px] justify-between h-[120px]">
-        <Image src="/assets/logo.svg" alt="logo" width={165} height={40} />
+      <div className="flex items-center max-w-[1440px] mx-auto px-6 sm:px-[40px] justify-between h-[80px] sm:h-[120px]">
+        <Image
+          src="/assets/logo.svg"
+          alt="logo"
+          width={165}
+          height={40}
+          className="h-[20px] sm:h-[30px] w-[100px] sm:w-[165px]"
+        />
         <Button
           type="button"
           className="bg-[#CDEA89] hidden text-[#052E16] h-[40px] sm:flex items-center"
@@ -76,7 +82,7 @@ export default function NotFound() {
             <h1 className="text-[#E3EECE] text-[30px] sm:text-[36px] mb-8">
               Coming Soon
             </h1>
-            <p className="text-[36px] sm:text-[60px] xl:w-[604px] font-semibold md:leading-[69px] text-[#C1E56B] mt-6 sm:mt-0">
+            <p className="text-[34px] sm:text-[60px] xl:w-[604px] font-semibold md:leading-[69px] text-[#C1E56B] mt-4 md:mt-6 sm:mt-0">
               Explore Cities in Africa like never before with Tourgrin!
             </p>
             <p
