@@ -47,7 +47,7 @@ const NotFoundPage = () => {
     <div className="container">
       <div className="flex flex-col gap-10 lg:flex-row items-center justify-between lg:my-14">
         <div className="text-center lg:text-left">
-          <h1 className="text-[#E3EECE] text-[80px] sm:text-[100px] leading-[80px] sm:leading-[140px] xl:leading-normal xl:text-[142.05px] font-bold">
+          <h1 className="text-[#E3EECE] text-[80px] sm:text-[100px] leading-[80px] sm:leading-[110px] xl:leading-[140px] xl:text-[142.05px] font-bold mb-10">
             Coming Soon
           </h1>
           <p className="text-sm sm:text-[18px] lg:text-[30px] xl:w-[677px] leading-normal font-bold text-[#E3EECE] mt-6 sm:mt-0">
