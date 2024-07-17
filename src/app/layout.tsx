@@ -1,5 +1,8 @@
-import type { Metadata } from "next";
 import { Familjen_Grotesk } from "next/font/google";
+import { Toaster } from "react-hot-toast";
+import type { Metadata } from "next";
+
+import ReactQueryProvider from "./lib/react-query";
 import "./globals.css";
 
 const fg = Familjen_Grotesk({ subsets: ["latin"] });
@@ -16,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${fg.className} bg-[#0B221D] bg-grain`}>{children}</body>
+      <body className={`${fg.className} bg-[#0B221D] bg-grain`}>
+        <Toaster />
+        <ReactQueryProvider>{children}</ReactQueryProvider>
+      </body>
     </html>
   );
 }

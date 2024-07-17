@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.51.4",
+    "@tanstack/react-query-devtools": "^5.51.4",
+    "axios": "^1.7.2",
     "clsx": "^2.1.1",
+    "i": "^0.3.7",
     "iconsax-react": "^0.0.8",
     "next": "14.2.5",
+    "npm": "^10.8.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.52.1"
+    "react-hook-form": "^7.52.1",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@types/node": "^20",
