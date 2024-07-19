@@ -59,9 +59,6 @@ const HomePageComponent = () => {
       { email: values.email },
       {
         onSuccess: () => {
-          toast.success("Subscribed successfully!", {
-            position: "bottom-center",
-          });
           reset();
         },
       }
